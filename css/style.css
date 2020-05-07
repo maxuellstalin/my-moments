@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+
 body{
-    background-color: rgb(138, 5, 190);
+    background-color: rgb(255, 255, 255);
     font-family: sans-serif;
-    background-image: url(../img/undraw_moments_0y20.svg);
-    background-repeat: repeat-y;
-    background-size: 33%;
-    
+    background-image: url(../img/undraw_drag_5i9w_background.svg);
+    background-repeat: no-repeat;    
 }
 
 a {
@@ -12,7 +13,7 @@ a {
 }
 
 .card{
-    box-shadow: 1px 1px 5px rgb(56, 55, 55);
+    box-shadow: 2px 2px 5px rgb(56, 55, 55);
     background-color: white;
     padding: 30px;
     border-radius: 5px;
@@ -26,10 +27,13 @@ a {
 
 .card-top{
     text-align: center;
+    
 }
 
 .card-group {
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .card-group > label{
@@ -55,14 +59,40 @@ a {
     width: 100%;
     height: 50px;
     font-size: 18px;
+    position: relative;
+    box-shadow: 1px 1px 3px #7d7a7a;
+    border-radius: 5px;
+    border: none;
+}
 
+.entrar:hover{
+
+    background-color: rgb(138, 5, 190);
+    color: white;
+    border: none;
+    transition: 700ms;
 }
 
 .img-user{
-    width: 120px;
+    width: 130px;
+    margin-bottom: -20px;
 
 }
 
 .title{
-    color: rgb(138, 5, 190);
+    color: black;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 90;
+    font-size: 33px;
+    margin-bottom: -10px;
+
+}
+
+.cadastro {
+    color: blue;
+}
+
+.entrar {
+    font-family: 'Modak', cursive;
+    font-family: 'Poppins', sans-serif;
 }
